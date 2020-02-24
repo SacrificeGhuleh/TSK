@@ -1,4 +1,4 @@
-package tsk2020;
+package tsk2020.CV01;
 
 /**
  * Hello world!

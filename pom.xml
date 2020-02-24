@@ -17,8 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!-- FIXME change it to the project's website -->
-<!--    <maven.compiler.source>13</maven.compiler.source>-->
-    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.source>13</maven.compiler.source>
+<!--    <maven.compiler.source>1.8</maven.compiler.source>-->
     <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     <junit.jupiter.version>5.6.0</junit.jupiter.version>
   </properties>
@@ -30,6 +30,29 @@
       <version>${junit.jupiter.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.3.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>3.3.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library -->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-library</artifactId>
+      <version>2.2</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
